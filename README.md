@@ -25,7 +25,6 @@ Completed a MA thesis on **Cyclone-Resilient Offshore Wind Site Selection in Fij
   <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=R&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white"/>
 </p>
 
 ---
