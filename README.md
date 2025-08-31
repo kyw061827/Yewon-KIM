@@ -1,7 +1,7 @@
 # 👩‍🎓 Yewon KIM  
 
 MA student in **Environment, Development & Policy** in the United Kingdom, focusing on climate resilience and renewable energy transitions.  
-Completed a master's thesis on **Cyclone-Resilient Offshore Wind Site Selection in Fiji**, and aiming to develop a specialty in **Disaster Risk Analysis** using GIS.  
+Completed a master's thesis on **Cyclone-Resilient Offshore Wind Infrastructure Site Selection in Fiji**, and aiming to develop a specialty in **Disaster Risk Analysis** using GIS.  
 
 
 ---
