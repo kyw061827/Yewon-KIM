@@ -38,3 +38,13 @@ Currently writing a thesis on **Cyclone-Resilient Offshore Wind Site Selection i
 - 🔗 LinkedIn: [linkedin.com/in/your-linkedin-id](https://linkedin.com/in/your-linkedin-id)  
 
 ---
+
+## 📁 Project Structure
+
+This repository is organized into a standard structure to separate data, code, and results for clarity and reproducibility.
+
+| Directory | Content Description |
+| :--- | :--- |
+| **`data/`** | Contains all raw and processed GIS data files, including the ESA WorldCover source data (`.tgz`) and derived analysis layers (e.g., split grid, mask files). |
+| **`results/`** | Stores the final, summarized outputs of the LULC analysis. This includes area statistics exported in spreadsheet format (`.xlsx`) with calculated values (e.g., EPSG:3857 m²). |
+| **Root (`/`)** | Holds documentation files (`README.md`), configuration files (`.gitattributes`), and the main QGIS project file (`.qgz`). |
