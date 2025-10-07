@@ -14,7 +14,7 @@ Currently writing a thesis on **Cyclone-Resilient Offshore Wind Site Selection i
 
 - 🚀 **NASA Hackathon — Mekong SAR Flood Nowcast**  
   Developed a prototype for **early flood detection and visualization in the Mekong Delta using Sentinel-1 SAR time series**, integrating rainfall, dam release, and vegetation factors to analyze inundation mechanisms.
-  **Project Repository**: https://github.com/wakhan6530/Mekong
+  [Project Repository](https://github.com/wakhan6530/Mekong)
 
 ---
 
