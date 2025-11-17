@@ -28,6 +28,7 @@ Currently writing a thesis on **Cyclone-Resilient Offshore Wind Site Selection i
   <img src="https://img.shields.io/badge/R-276DC3?style=flat&logo=R&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google Earth Engine-589632?style=flat&logo=qgis&logoColor=white"/>
 </p>
 
 ---
