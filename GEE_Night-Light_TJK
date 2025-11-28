@@ -1,4 +1,4 @@
-#ScriptPath Link: https://code.earthengine.google.com/?scriptPath=users%2Fkyw061827%2FYewon-KIM%3AGEE_Night-Light_TJK
+// ScriptPath Link: https://code.earthengine.google.com/?scriptPath=users%2Fkyw061827%2FYewon-KIM%3AGEE_Night-Light_TJK
 
 var roi = table.filterBounds(geometry);
 
