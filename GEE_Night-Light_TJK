@@ -1,0 +1,38 @@
+#ScriptPath Link: https://code.earthengine.google.com/?scriptPath=users%2Fkyw061827%2FYewon-KIM%3AGEE_Night-Light_TJK
+
+var roi = table.filterBounds(geometry);
+
+Map.addLayer(roi)
+
+Map.centerObject(roi)
+
+function night_light(time_start, time_end, loc_name){
+
+var viirs = imageCollection.select('avg_rad')
+.filterDate(time_start, time_end)
+.mean();
+
+var stats = viirs.reduceRegion({
+  reducer: ee.Reducer.mean().combine({reducer2: ee.Reducer.minMax(), sharedInputs: true}), geometry: roi, scale: 500
+})
+print('night light stat for '+time_start, stats)
+
+Map.addLayer(viirs.clip(roi),[],loc_name+time_start,false)
+
+Export.image.toDrive({
+  image: viirs.clip(roi),
+  description: loc_name+time_start,
+  scale: 500,
+  crs: viirs.getInfo().crs,
+  region: roi,
+  folder: 'Google 어스'
+})
+
+return viirs
+
+}
+
+
+var Dushanbe2013 = night_light('2013','2014','Dushanbe')
+
+var Dushanbe2013 = night_light('2023','2024','Dushanbe')
